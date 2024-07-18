@@ -160,26 +160,6 @@ button.calculate {
     padding: 5px;
 }
 
-.footer {
-    display: flex;
-    justify-content: start;
-    align-items: center;
-    padding: 10px 15px
-}
-
-.footer-text {
-    text-decoration: none;
-    color: rgba(40, 40, 40, 0.8);
-    font-family: 'Poppins', sans-serif;
-    font-weight: 200;
-    font-size: 14px;
-    transition: all 0.5;
-}
-
-.footer-text:hover {
-    color: rgba(40, 40, 40, 1);
-}
-
 .gender {
     display: flex;
     justify-content: space-around;
@@ -252,6 +232,17 @@ button.calculate {
     display: flex;
     justify-content: space-around;
     align-items: center;
+}
+
+.explanation {
+  font-size: 14px;
+  padding: 10px;
+}
+
+h2{
+  color: rgb(0, 0, 0, 0.7);
+  font-weight: bold;
+  font-size: 24px;
 }
 
 @media (max-width: 700px){
